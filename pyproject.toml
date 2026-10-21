@@ -8,4 +8,6 @@ dependencies = [
     "pulser>=1.9.1",
     "qoolqit>=1.4.0",
     "qubo-solver>=0.9.1",
+    "emu-sv",
+    "pasqal-cloud>=0.24.0",
 ]
