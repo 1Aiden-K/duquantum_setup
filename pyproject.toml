@@ -12,6 +12,7 @@ dependencies = [
     "pasqal-cloud>=0.24.0",
     "numpy>=2.5.4",
     "matplotlib>=3.11.2",
+    "dotenv>=0.9.9",
 ]
 
 [tool.ruff]

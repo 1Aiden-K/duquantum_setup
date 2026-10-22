@@ -21,6 +21,7 @@
 | [Pasqal Cloud](https://pypi.org/project/pasqal-cloud/) | ≥ 0.24.0 |
 | [NumPy](https://pypi.org/project/numpy/) | ≥ 2.5.4 |
 | [Matplotlib](https://pypi.org/project/matplotlib/) | ≥ 3.11.2 |
+|[Dotenv](https://pypi.org/project/python-dotenv/) |  ≥ 0.9.9 |
 
 **Development dependency:** [Ruff](https://docs.astral.sh/ruff/) — Python linting and formatting.
 
