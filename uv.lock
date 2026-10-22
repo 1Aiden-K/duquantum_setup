@@ -642,6 +642,7 @@ dependencies = [
     { name = "pulser" },
     { name = "qoolqit" },
     { name = "qubo-solver" },
+    { name = "qutip" },
 ]
 
 [package.dev-dependencies]
@@ -659,6 +660,7 @@ requires-dist = [
     { name = "pulser", specifier = ">=1.9.1" },
     { name = "qoolqit", specifier = ">=1.4.0" },
     { name = "qubo-solver", specifier = ">=0.9.1" },
+    { name = "qutip", specifier = ">=5.3.1" },
 ]
 
 [package.metadata.requires-dev]

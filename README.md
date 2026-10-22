@@ -22,6 +22,7 @@
 | [NumPy](https://pypi.org/project/numpy/) | ≥ 2.5.4 |
 | [Matplotlib](https://pypi.org/project/matplotlib/) | ≥ 3.11.2 |
 |[Dotenv](https://pypi.org/project/python-dotenv/) |  ≥ 0.9.9 |
+|[QuTip](https://pypi.org/project/qutip/) |  ≥ 5.3.1 |
 
 **Development dependency:** [Ruff](https://docs.astral.sh/ruff/) — Python linting and formatting.
 
