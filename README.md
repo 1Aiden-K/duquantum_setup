@@ -1,6 +1,6 @@
 # Environment and Dependency Setup
 
-### Team: Physics
+### Team: Psychics
 #### Challenge: Pasqal Neutral Atom Optimization
 *DuQuantum 2026*
 
