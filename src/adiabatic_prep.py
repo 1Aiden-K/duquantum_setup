@@ -1,3 +1,4 @@
+# https://docs.pasqal.com/pulser/tutorials/creating/
 import numpy as np
 import pulser
 from matplotlib import pyplot as plt
@@ -25,9 +26,7 @@ register.draw()
 sequence = pulser.Sequence(register, device)
 
 sequence.declare_channel("rydberg_global", "rydberg_global")
-print(
-    "The states used in the computation are", sequence.get_addressed_states()
-)
+print("The states used in the computation are", sequence.get_addressed_states())
 
 rise = pulser.Pulse.ConstantDetuning(
     pulser.RampWaveform(t_rise, 0.0, Omega_max), delta_0, 0.0

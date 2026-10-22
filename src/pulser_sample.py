@@ -1,3 +1,4 @@
+# https://docs.pasqal.com/pulser/tutorials/creating/
 import numpy as np
 import pulser
 from matplotlib import pyplot as plt
@@ -11,9 +12,7 @@ register.draw()
 sequence = pulser.Sequence(register, device)
 
 sequence.declare_channel("rydberg_global", "rydberg_global")
-print(
-    "The states used in the computation are", sequence.get_addressed_states()
-)
+print("The states used in the computation are", sequence.get_addressed_states())
 
 pi_pulse = pulser.Pulse.ConstantPulse(1000, np.pi, 0, 0)
 sequence.add(pi_pulse, "rydberg_global")
